@@ -14,6 +14,7 @@
 		27F4DD361B581F670060E9F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F4DD351B581F670060E9F2 /* Images.xcassets */; };
 		27F4DD391B581F670060E9F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F4DD371B581F670060E9F2 /* LaunchScreen.xib */; };
 		27F4DD451B581F670060E9F2 /* ZoomingIconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F4DD441B581F670060E9F2 /* ZoomingIconsTests.m */; };
+		27F4DD501B581FBB0060E9F2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F4DD4F1B581FBB0060E9F2 /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		27F4DD3E1B581F670060E9F2 /* ZoomingIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomingIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F4DD431B581F670060E9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F4DD441B581F670060E9F2 /* ZoomingIconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomingIconsTests.m; sourceTree = "<group>"; };
+		27F4DD4E1B581FBB0060E9F2 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		27F4DD4F1B581FBB0060E9F2 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				27F4DD2D1B581F670060E9F2 /* AppDelegate.m */,
 				27F4DD2F1B581F670060E9F2 /* ViewController.h */,
 				27F4DD301B581F670060E9F2 /* ViewController.m */,
+				27F4DD4E1B581FBB0060E9F2 /* MenuViewController.h */,
+				27F4DD4F1B581FBB0060E9F2 /* MenuViewController.m */,
 				27F4DD321B581F670060E9F2 /* Main.storyboard */,
 				27F4DD351B581F670060E9F2 /* Images.xcassets */,
 				27F4DD371B581F670060E9F2 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				27F4DD311B581F670060E9F2 /* ViewController.m in Sources */,
 				27F4DD2E1B581F670060E9F2 /* AppDelegate.m in Sources */,
 				27F4DD2B1B581F670060E9F2 /* main.m in Sources */,
+				27F4DD501B581FBB0060E9F2 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
